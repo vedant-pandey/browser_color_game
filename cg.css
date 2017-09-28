@@ -1,0 +1,70 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.square{
+	width: 30%;
+	background-color: #232323;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.666%;
+	border-radius: 25%;
+	transition: background 0.8s;
+	-webkit-transition: background 0.8s;
+	-moz-transition: background 0.8s;
+}
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+	background-color: #232323;
+}
+#colordisp{
+	font-size: 2em;
+}
+h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	line-height: 1.1;
+	padding: 20px 0px;
+	transition: background 0.8s;
+	-webkit-transition: background 0.8s;
+	-moz-transition: background 0.8s;
+}
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	transition: all 0.8s;
+	outline: none;
+}
+#strip{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	background-color: steelblue; 
+	color: white;
+}
+#msg{
+	display: inline-block;
+	width: 25%;
+	color: steelblue;
+	font-weight: 700;
+	transition: color 0.8s;
+	-webkit-transition: color 0.8s;
+	-moz-transition: color 0.8s;
+}
+
+.hovereff:hover {
+	background-color: steelblue;
+	color: white;
+}
